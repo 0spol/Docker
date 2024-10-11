@@ -6,6 +6,13 @@ Este `README.md` sirve para conocer, en términos generales, lo que se necesita 
 
 Este repositorio tendrá una subcarpeta por cada máquina virtual en Docker que monte, y junto a los archivos de esa subcarpeta habrá un archivo `README.md` explicando cómo usar esa máquina y una breve explicación de su funcionamiento.
 
+#### Mapa de máquinas 
+
+- **Java/** 🐧: Máquina virtual con un entorno Linux para **PSP**.
+- **MySQL/** 🗄️: Máquina configurada para **AD**.
+- **Oracle/** 🏛️: Máquina para **AD** (aún en proceso).
+- **PHPMyAdmin/** 🖥️: Interfaz para gestionar bases de datos **MySQL** en **AD**.
+
 ## Conceptos mínimos de Docker
 
 - **Imagen**  
@@ -74,3 +81,6 @@ Si ya has clonado el repositorio sin los submódulos, puedes inicializarlos con:
 ```bash
 git submodule update --init --recursive
 ```
+<div style="background-color: yellow; padding: 10px;">
+❕ Si usas submódulos, los cambios que hagas en local no podrás llevarlos a tu repositorio principal, ya que el submódulo pertenece a otra persona.
+</div>
