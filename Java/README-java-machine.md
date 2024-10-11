@@ -41,8 +41,6 @@ WORKDIR /app
 
 COPY ./src /app/src
 
-RUN javac /app/src/Main.java
-
 CMD ["java", "src/Main.java"]
 ```
 
@@ -66,7 +64,6 @@ services:
   - `RUN apk add --no-cache bash`: Instala `bash` en la imagen.
   - `WORKDIR /app`: Establece el directorio de trabajo en el contenedor.
   - `COPY ./src /app/src`: Copia el código fuente al contenedor.
-  - `RUN javac /app/src/Main.java`: Compila la clase `Main.java`.
   - `CMD ["java", "src/Main.java"]`: Comando para ejecutar la aplicación Java.
 
 - **docker-compose.yml**:
