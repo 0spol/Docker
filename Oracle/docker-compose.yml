@@ -1,0 +1,17 @@
+services:
+  oracle:
+    image: oracle/database:19.3.0-se2
+    container_name: oracle-db  
+    ports:
+      - "1521:1521"  
+      - "5500:5500"  
+    environment:
+      ORACLE_PWD: mysecurepassword  
+      ORACLE_DATABASE: mydatabase  
+      ORACLE_USER: myuser  
+      ORACLE_USER_PASSWORD: userpassword  
+    volumes:
+      - oracle_data:/opt/oracle/oradata  
+
+volumes:
+  oracle_data:  
