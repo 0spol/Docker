@@ -81,6 +81,5 @@ Si ya has clonado el repositorio sin los submódulos, puedes inicializarlos con:
 ```bash
 git submodule update --init --recursive
 ```
-<div style="background-color: yellow; padding: 10px;">
-❕ Si usas submódulos, los cambios que hagas en local no podrás llevarlos a tu repositorio principal, ya que el submódulo pertenece a otra persona.
-</div>
+> [!IMPORTANT]
+>  Si usas submódulos, los cambios que hagas en local no podrás llevarlos a tu repositorio principal, ya que el submódulo pertenece a otra persona.
