@@ -1,5 +1,5 @@
-> [!IMPORTANT]
-> `🚧 Este README está en proceso. Algunas secciones pueden estar incompletas o sujetas a cambios. 🚧`
+> [!CAUTION]
+> 🚧 Este README está en proceso. Algunas secciones pueden estar incompletas o sujetas a cambios. 🚧
 
 
 # Oracle Database
