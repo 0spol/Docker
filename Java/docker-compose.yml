@@ -1,0 +1,6 @@
+services:
+  java:
+    build: .
+    container_name: java-app
+    stdin_open: true
+    tty: true
