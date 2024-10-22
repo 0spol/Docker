@@ -1,6 +1,6 @@
 services:
-  db:
-    container_name: postgres-latest
+  postgres:
+    container_name: postgres
     build: .
     ports:
       - "5432:5432"
@@ -12,7 +12,5 @@ services:
       PGDATA: /var/lib/postgresql/data/pgdata
     volumes:
       - pgdata:/var/lib/postgresql/data
-
 volumes:
   pgdata:
-
