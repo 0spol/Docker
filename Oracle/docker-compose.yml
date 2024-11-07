@@ -1,10 +1,9 @@
 services:
   oracle:
-    image: gvenzl/oracle-xe:latest
+    image: gvenzl/oracle-free:latest
     container_name: oracle-db
     ports:
       - "1521:1521" 
-      - "5500:5500"  
     environment:
       ORACLE_PASSWORD: mysecurepassword
       APP_USER: myuser    
