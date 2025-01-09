@@ -9,9 +9,10 @@ Este repositorio tendrá una subcarpeta por cada máquina virtual en Docker que 
 #### Mapa de máquinas 
 
 - **Java/** 🐧: Máquina virtual con un entorno Linux para **PSP**.
+- **Mongo/** 🥭: Máquina configurada para **AD**.
 - **MySQL/** 🗄️: Máquina configurada para **AD**.
-- **Oracle/** 🏛️: Máquina para **AD**.
-- **PHPMyAdmin/** 🖥️: Interfaz para gestionar bases de datos **MySQL** en **AD**.
+- **Oracle/** 🏛️: Máquina configurada para **AD**.
+- **PHPMyAdmin/** 🖥️: Máquina para gestionar bases de datos **MySQL** através de PHPMyAdmin para **AD**.
 
 ## Conceptos mínimos de Docker
 
