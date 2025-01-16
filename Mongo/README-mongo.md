@@ -25,7 +25,13 @@ Esta subcarpeta contiene un conjunto de instrucciones para crear un entorno de b
   
 Puedes utilizar cualquier cliente MongoDB, como MongoDB Compass o la línea de comandos `mongo`, para conectarte usando estas credenciales.
 
-Si usas IntelliJ o Visual Studio, recomiendo descargar un plugin para facilitar la gestión de bases de datos. Para IntelliJ, se puede utilizar **Database Navigator**, y para Visual Studio, **MongoDB for VS Code**.
+Recomiendo usar **MongoSH** por línea de comandos.
+
+    ```bash
+    mongosh mongodb://admin:admin123@localhost:27017
+    ```
+
+Si usas IntelliJ o Visual Studio, también puedes descargar un plugin para facilitar la gestión de bases de datos. Para IntelliJ, se puede utilizar **Database Navigator**, y para Visual Studio, **MongoDB for VS Code**.
 
 ## Explicación
 
