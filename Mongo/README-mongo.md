@@ -27,9 +27,9 @@ Puedes utilizar cualquier cliente MongoDB, como MongoDB Compass o la línea de c
 
 Recomiendo usar **MongoSH** por línea de comandos.
 
-    ```bash
-    mongosh mongodb://admin:admin123@localhost:27017
-    ```
+  ```bash
+   mongosh mongodb://admin:admin123@localhost:27017
+   ```
 
 Si usas IntelliJ o Visual Studio, también puedes descargar un plugin para facilitar la gestión de bases de datos. Para IntelliJ, se puede utilizar **Database Navigator**, y para Visual Studio, **MongoDB for VS Code**.
 
